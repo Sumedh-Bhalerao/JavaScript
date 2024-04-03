@@ -1,0 +1,1 @@
+document.write("From External Javascript File...");
