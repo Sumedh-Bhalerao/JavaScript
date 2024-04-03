@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name Property</title>
+    <script>
+    	function Add()
+    	{
+    		var num1=parseInt(document.myform.num1.value);
+    		var num2=parseInt(document.myform.num2.value);
+    		document.myform.res.value=(num1+num2);
+    	}
+    </script>
+</head>
+<body>
+     <form name="myform">
+     	number 1 <input type="number" name="num1"><br><br>
+     	number 2 <input type="number" name="num2"><br><br>
+     	result <input type="number" name="res"><br><br>
+     	<input type="button" name="btn1" value="Add" onclick="Add()">
+     </form>
+</body>
+</html>
